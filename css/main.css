@@ -452,3 +452,82 @@ body .fecha{
         font-size: 10px;
     } 
 }
+
+@media screen and (max-width: 300px){
+
+    header .menu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    header .menu li a{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+
+    header .contenedor-texto .texto{
+        width: 100%;
+    }
+
+    header .contenedor-texto .texto .nombre{
+        font-size: 18px;
+    }
+    header .contenedor-texto .texto .profesion{
+        font-size: 12px;
+    }
+    header .contenedor-texto{
+        margin: 100px 0;
+    }
+    .main .acerca-de .texto{
+        width: 100%;
+    }
+
+    .main .acerca-de .texto .titulo{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .main .acerca-de .texto p{
+        font-size: 13px;
+        font-weight: 300;
+        padding: 10px;
+    }
+    .main .trabajos .contenedor .titulo{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    footer .contacto{
+        width: 260px;
+    }
+    footer .contacto .titulo{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    footer .contacto .formulario input[type="text"],
+    footer .contacto .formulario input[type="email"]{
+    width: 100%;
+    margin-bottom: 15px;
+    }
+    footer .contacto .formulario .boton{
+        height: 50px;
+        width: 100px;
+    }
+    footer .redes-sociales .contenedor .herramientas{
+        width: 100%;
+    }
+    footer .redes-sociales .contenedor .herramientas .herramienta{
+        width: 100px;
+        height: 50px;
+        margin: 3px;
+    }
+    footer .redes-sociales .contenedor .redes{
+        width: 100%;
+    }
+    footer .redes-sociales .contenedor .redes .social{
+        width: 100px;
+        height: 50px;
+        margin: 3px;
+    }
+    
+  
+}
